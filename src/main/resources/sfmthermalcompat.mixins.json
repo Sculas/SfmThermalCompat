@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.sculas.sfmthermalcompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "sfmthermalcompat.refmap.json",
+  "mixins": [
+    "SfmCapabilityProviderMappersMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
