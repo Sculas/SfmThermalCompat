@@ -10,6 +10,7 @@ displayName = "${mod_name}"
 displayURL = "${mod_repository}"
 authors = "${mod_authors}"
 description = '''${mod_description}'''
+displayTest = "IGNORE_ALL_VERSION"
 
 [[dependencies.${ mod_id }]]
 modId = "forge"
